@@ -6,7 +6,8 @@ Decks are stored as plain-text files that can be imported directly into Anki (Fi
 
 ## Contents
 
-- `js-ts.txt` — JavaScript `Array` methods (42 cards: all `Array.prototype` instance methods + static `Array.from / fromAsync / isArray / of`). Each card asks what a method does and gives a code example, noting whether it mutates the original array.
+- `js.txt` — JavaScript `Array` methods (42 cards: all `Array.prototype` instance methods + static `Array.from / fromAsync / isArray / of`). Each card asks what a method does and gives a code example, noting whether it mutates the original array.
+- `ts.txt` — TypeScript utility types (19 cards covering `Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, Parameters, ConstructorParameters, ReturnType, InstanceType, Awaited, ThisParameterType, OmitThisParameter, ThisType, Uppercase/Lowercase/Capitalize/Uncapitalize, NoInfer`). Each card asks what the type does with a minimal example.
 
 ## File format
 
@@ -27,7 +28,7 @@ Each `.txt` deck uses Anki's plain-text import headers:
 ## How to use
 
 1. Open Anki → File → Import.
-2. Select e.g. `js-ts.txt`.
+2. Select e.g. `js.txt` or `ts.txt`.
 3. Confirm: Separator = Tab, Notetype = Basic, Deck matches header.
 4. Study. Re-import the same file to update (Anki matches on first field).
 
