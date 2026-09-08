@@ -1,7 +1,7 @@
 #separator:tab
 #html:true
 #notetype:Basic
-#deck:JS/TS Programming language
+#deck:JavaScript Programming language
 #columns:Front	Back
 What does <code>Array.prototype.map()</code> do in JavaScript? Give an example.	Creates a <b>new array</b> by applying a function to every element. Does <b>not</b> mutate the original.<br><br><pre><code>const nums = [1, 2, 3];<br>const doubled = nums.map(n =&gt; n * 2);<br>// doubled: [2, 4, 6]<br>// nums: [1, 2, 3] (unchanged)</code></pre>
 What does <code>Array.prototype.filter()</code> do in JavaScript? Give an example.	Creates a <b>new array</b> with only elements that pass a test (return <code>true</code>). Does <b>not</b> mutate the original.<br><br><pre><code>const nums = [1, 2, 3, 4];<br>const evens = nums.filter(n =&gt; n % 2 === 0);<br>// evens: [2, 4]</code></pre>
