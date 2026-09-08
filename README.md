@@ -6,7 +6,7 @@ Decks are stored as plain-text files that can be imported directly into Anki (Fi
 
 ## Contents
 
-- `js.txt` — JavaScript (131 cards: 42 Array incl. `Array.from / fromAsync / isArray / of`, 36 String incl. `String.fromCharCode / fromCodePoint / raw`, 9 on `var / let / const` scope + hoisting/TDZ, 9 on strict mode, 11 on regular vs arrow functions + `call / apply / bind`, 11 on execution context + event loop / queues, 13 on coercion + edge cases). Each card asks what a method/concept does with a code example.
+- `js.txt` — JavaScript (143 cards: 42 Array incl. `Array.from / fromAsync / isArray / of`, 36 String incl. `String.fromCharCode / fromCodePoint / raw`, 9 on `var / let / const` scope + hoisting/TDZ, 9 on strict mode, 11 on regular vs arrow functions + `call / apply / bind`, 11 on execution context + event loop / queues, 13 on coercion + edge cases, 12 on prototype + class inheritance). Each card asks what a method/concept does with a code example.
 - `ts.txt` — TypeScript utility types (19 cards covering `Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, Parameters, ConstructorParameters, ReturnType, InstanceType, Awaited, ThisParameterType, OmitThisParameter, ThisType, Uppercase/Lowercase/Capitalize/Uncapitalize, NoInfer`). Each card asks what the type does with a minimal example.
 - `git.txt` — Git fundamentals (28 cards: init/clone, status/add/commit, log/diff, branching, switch, merge, rebase, stash, reset/revert/restore, remotes, fetch/pull/push, force-with-lease, tags, cherry-pick, conflicts, .gitignore, three areas, reflog, interactive rebase).
 
