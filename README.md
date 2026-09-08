@@ -8,7 +8,7 @@ Decks are stored as plain-text files that can be imported directly into Anki (Fi
 
 - `js.txt` — JavaScript (96 cards: 42 Array incl. `Array.from / fromAsync / isArray / of`, 36 String incl. `String.fromCharCode / fromCodePoint / raw`, 9 on `var / let / const` scope + hoisting/TDZ, 9 on strict mode). Each card asks what a method/concept does with a code example.
 - `ts.txt` — TypeScript utility types (19 cards covering `Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, Parameters, ConstructorParameters, ReturnType, InstanceType, Awaited, ThisParameterType, OmitThisParameter, ThisType, Uppercase/Lowercase/Capitalize/Uncapitalize, NoInfer`). Each card asks what the type does with a minimal example.
-- `git.txt` — Git fundamentals (20 cards: init/clone, status/add/commit, log/diff, branching, switch, merge, rebase, stash, reset/revert/restore, remotes, fetch/pull/push, force-with-lease, tags, cherry-pick, conflicts, .gitignore, three areas).
+- `git.txt` — Git fundamentals (23 cards: init/clone, status/add/commit, log/diff, branching, switch, merge, rebase, stash, reset/revert/restore, remotes, fetch/pull/push, force-with-lease, tags, cherry-pick, conflicts, .gitignore, three areas, reflog).
 
 ## File format
 
