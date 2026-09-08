@@ -1,13 +1,14 @@
 # anki-decks
 
-Personal Anki decks for learning programming — starting with JavaScript / TypeScript.
+Personal Anki decks for learning programming and tooling — JavaScript / TypeScript plus Git.
 
 Decks are stored as plain-text files that can be imported directly into Anki (File → Import). Plain text keeps them git-friendly, easy to review, edit, and extend.
 
 ## Contents
 
-- `js.txt` — JavaScript `Array` methods (42 cards: all `Array.prototype` instance methods + static `Array.from / fromAsync / isArray / of`). Each card asks what a method does and gives a code example, noting whether it mutates the original array.
+- `js.txt` — JavaScript `Array` + `String` methods (78 cards: 42 Array incl. `Array.from / fromAsync / isArray / of`, 36 String incl. `String.fromCharCode / fromCodePoint / raw`). Each card asks what a method does with a code example.
 - `ts.txt` — TypeScript utility types (19 cards covering `Partial, Required, Readonly, Record, Pick, Omit, Exclude, Extract, NonNullable, Parameters, ConstructorParameters, ReturnType, InstanceType, Awaited, ThisParameterType, OmitThisParameter, ThisType, Uppercase/Lowercase/Capitalize/Uncapitalize, NoInfer`). Each card asks what the type does with a minimal example.
+- `git.txt` — Git fundamentals (20 cards: init/clone, status/add/commit, log/diff, branching, switch, merge, rebase, stash, reset/revert/restore, remotes, fetch/pull/push, force-with-lease, tags, cherry-pick, conflicts, .gitignore, three areas).
 
 ## File format
 
@@ -17,7 +18,7 @@ Each `.txt` deck uses Anki's plain-text import headers:
 #separator:tab
 #html:true
 #notetype:Basic
-#deck:JS/TS Programming language
+#deck:Your Deck Name   # e.g. JavaScript Programming language, TS Programming language, Git
 #columns:Front<TAB>Back
 ```
 
@@ -28,7 +29,7 @@ Each `.txt` deck uses Anki's plain-text import headers:
 ## How to use
 
 1. Open Anki → File → Import.
-2. Select e.g. `js.txt` or `ts.txt`.
+2. Select e.g. `js.txt`, `ts.txt`, or `git.txt`.
 3. Confirm: Separator = Tab, Notetype = Basic, Deck matches header.
 4. Study. Re-import the same file to update (Anki matches on first field).
 
